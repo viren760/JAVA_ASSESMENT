@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class BankService {
+
+	public void getAllBanks(Banks[] banks) {
+		System.out.println(Arrays.toString(banks));
+	}
+	
+	public void getBankDetails() {
+		
+	}
+
+	public void getAllBanks(Object banks) {
+		Banks.FetchAllBanks();
+		
+	}
+
+}

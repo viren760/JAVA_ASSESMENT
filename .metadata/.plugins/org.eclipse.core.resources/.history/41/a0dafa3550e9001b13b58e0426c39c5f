@@ -1,0 +1,10 @@
+
+public class BankController {
+
+	public static void main(String[] args) {
+		Banks banks = new Banks();
+		banks.FetchAllBanks();
+
+	}
+
+}

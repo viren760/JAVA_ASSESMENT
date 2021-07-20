@@ -1,0 +1,609 @@
+!SESSION 2021-07-20 14:12:45.933 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-07-20 14:13:05.145
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-20 14:13:05.145
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@320ba79f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@333a2df2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-20 14:13:21.604
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Virender Negi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:11.511
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:11.513
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3bd9f394[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=477)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:11.519
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:11.610
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:16.225
+!MESSAGE Boot LS startup time from start to initialized: 4690ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:16.379
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PpxjkJDSisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:16.383
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:16.388
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:16.389
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:16.390
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:16.391
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PpxjkJDS => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:16.396
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:16.398
+!MESSAGE buffering callback sts4.classpath.PpxjkJDS Banking false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:16.400
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:16.401
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:16.403
+!MESSAGE buffering callback sts4.classpath.PpxjkJDS src false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:16.404
+!MESSAGE executing callback sts4.classpath.PpxjkJDS 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 14:14:16.876
+!MESSAGE executing callback sts4.classpath.PpxjkJDS SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-07-20 15:28:01.115
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-07-20 15:28:07.133
+!MESSAGE Project facet jst.ejb has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:28:07.232
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PpxjkJDS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:28:07.234
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.PpxjkJDS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:28:07.236
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:28:07.238
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PpxjkJDS => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:16.526
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:16.528
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3bd9f394[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=477)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:16.530
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:21.392
+!MESSAGE Boot LS startup time from start to initialized: 4859ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:21.579
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jzosMuZuisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:21.581
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:21.582
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:21.583
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:21.584
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:21.585
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jzosMuZu => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:21.586
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:21.587
+!MESSAGE buffering callback sts4.classpath.jzosMuZu Banking false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:21.588
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:21.589
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:21.590
+!MESSAGE buffering callback sts4.classpath.jzosMuZu src false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:21.591
+!MESSAGE executing callback sts4.classpath.jzosMuZu 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 15:32:22.096
+!MESSAGE executing callback sts4.classpath.jzosMuZu SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.ui 4 2 2021-07-20 16:22:09.402
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.NullPointerException: Cannot store to object array because "this.types[this.typeid]" is null
+	at org.eclipse.jdt.internal.compiler.lookup.TypeSystem.getWildcard(TypeSystem.java:424)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotatableTypeSystem.getWildcard(AnnotatableTypeSystem.java:210)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeFromVariantTypeSignature(LookupEnvironment.java:2113)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeArgumentsFromSignature(LookupEnvironment.java:1753)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeFromTypeSignature(LookupEnvironment.java:2043)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.createMethod(BinaryTypeBinding.java:991)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.createMethods(BinaryTypeBinding.java:1136)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.cachePartsFrom(BinaryTypeBinding.java:613)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.createBinaryTypeFrom(LookupEnvironment.java:1055)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.createBinaryTypeFrom(LookupEnvironment.java:1036)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:308)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:257)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:114)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:248)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getType(LookupEnvironment.java:1739)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getResolvedType(LookupEnvironment.java:1662)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getResolvedType(LookupEnvironment.java:1661)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getResolvedJavaBaseType(LookupEnvironment.java:1674)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getJavaLangString(Scope.java:2980)
+	at org.eclipse.jdt.core.dom.DefaultBindingResolver.resolveWellKnownType(DefaultBindingResolver.java:1961)
+	at org.eclipse.jdt.core.dom.AST.resolveWellKnownType(AST.java:3640)
+	at org.eclipse.jdt.internal.ui.text.correction.ConvertStringConcatenationProposals.getProposals(ConvertStringConcatenationProposals.java:91)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickAssistProcessor.getAssists(QuickAssistProcessor.java:386)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeAssistCollector.safeRun(JavaCorrectionProcessor.java:404)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:330)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectAssists(JavaCorrectionProcessor.java:506)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:291)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.computeQuickAssistProposals(JavaCorrectionProcessor.java:247)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant$ContentAssistProcessor.computeCompletionProposals(QuickAssistAssistant.java:71)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.lambda$0(ContentAssistant.java:2020)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4872)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:2019)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2016)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:577)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeFilteredProposals(CompletionProposalPopup.java:1511)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$1.run(CompletionProposalPopup.java:367)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.getSelectedProposal(CompletionProposalPopup.java:926)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.verifyKey(CompletionProposalPopup.java:1384)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:800)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1519)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4882)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4760)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.jdt.ui 4 4 2021-07-20 16:22:09.405
+!MESSAGE An error occurred while computing quick assists. Check log for details.
+!SUBENTRY 1 org.eclipse.jdt.ui 4 0 2021-07-20 16:22:09.405
+!MESSAGE Exception while processing quick fixes or quick assists
+!SUBENTRY 2 org.eclipse.jdt.ui 4 4 2021-07-20 16:22:09.405
+!MESSAGE Exception while processing quick fixes or quick assists
+!STACK 0
+java.lang.NullPointerException: Cannot store to object array because "this.types[this.typeid]" is null
+	at org.eclipse.jdt.internal.compiler.lookup.TypeSystem.getWildcard(TypeSystem.java:424)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotatableTypeSystem.getWildcard(AnnotatableTypeSystem.java:210)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeFromVariantTypeSignature(LookupEnvironment.java:2113)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeArgumentsFromSignature(LookupEnvironment.java:1753)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeFromTypeSignature(LookupEnvironment.java:2043)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.createMethod(BinaryTypeBinding.java:991)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.createMethods(BinaryTypeBinding.java:1136)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.cachePartsFrom(BinaryTypeBinding.java:613)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.createBinaryTypeFrom(LookupEnvironment.java:1055)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.createBinaryTypeFrom(LookupEnvironment.java:1036)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:308)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:257)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:114)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:248)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getType(LookupEnvironment.java:1739)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getResolvedType(LookupEnvironment.java:1662)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getResolvedType(LookupEnvironment.java:1661)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getResolvedJavaBaseType(LookupEnvironment.java:1674)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getJavaLangString(Scope.java:2980)
+	at org.eclipse.jdt.core.dom.DefaultBindingResolver.resolveWellKnownType(DefaultBindingResolver.java:1961)
+	at org.eclipse.jdt.core.dom.AST.resolveWellKnownType(AST.java:3640)
+	at org.eclipse.jdt.internal.ui.text.correction.ConvertStringConcatenationProposals.getProposals(ConvertStringConcatenationProposals.java:91)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickAssistProcessor.getAssists(QuickAssistProcessor.java:386)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeAssistCollector.safeRun(JavaCorrectionProcessor.java:404)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:330)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectAssists(JavaCorrectionProcessor.java:506)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:291)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.computeQuickAssistProposals(JavaCorrectionProcessor.java:247)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant$ContentAssistProcessor.computeCompletionProposals(QuickAssistAssistant.java:71)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.lambda$0(ContentAssistant.java:2020)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4872)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:2019)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2016)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:577)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeFilteredProposals(CompletionProposalPopup.java:1511)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$1.run(CompletionProposalPopup.java:367)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.getSelectedProposal(CompletionProposalPopup.java:926)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.verifyKey(CompletionProposalPopup.java:1384)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:800)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:766)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1094)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1519)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4882)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4760)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-20 17:12:51.509
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 17:22:19.673
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 17:22:19.675
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 17:22:19.677
+!MESSAGE buffering callback sts4.classpath.jzosMuZu Banking false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 17:22:19.678
+!MESSAGE executing callback sts4.classpath.jzosMuZu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 17:22:19.698
+!MESSAGE executing callback sts4.classpath.jzosMuZu SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 17:23:03.894
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 17:23:03.899
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 17:23:03.901
+!MESSAGE buffering callback sts4.classpath.jzosMuZu Banking false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 17:23:03.902
+!MESSAGE executing callback sts4.classpath.jzosMuZu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 17:23:03.922
+!MESSAGE executing callback sts4.classpath.jzosMuZu SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-20 18:20:41.090
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 18:57:54.559
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 18:57:54.560
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 18:57:54.560
+!MESSAGE buffering callback sts4.classpath.jzosMuZu Banking false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 18:57:54.561
+!MESSAGE executing callback sts4.classpath.jzosMuZu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-20 18:57:54.571
+!MESSAGE executing callback sts4.classpath.jzosMuZu SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-07-20 19:04:11.850
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Document does not match the AST
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:119)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createTextChange(CUCorrectionProposal.java:196)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createChange(CUCorrectionProposal.java:203)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.getChange(ChangeCorrectionProposal.java:341)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getTextChange(CUCorrectionProposal.java:214)
+	at org.eclipse.jdt.core.manipulation.CUCorrectionProposalCore.getAdditionalProposalInfo(CUCorrectionProposalCore.java:132)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getAdditionalProposalInfo(CUCorrectionProposal.java:138)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException: Document does not match the AST
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.handleException(ASTRewriteAnalyzer.java:4589)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:3883)
+	at org.eclipse.jdt.core.dom.ThrowStatement.accept0(ThrowStatement.java:131)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisit(ASTRewriteAnalyzer.java:429)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisitList(ASTRewriteAnalyzer.java:467)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:461)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisitUnchangedChildren(ASTRewriteAnalyzer.java:474)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2253)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:126)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:453)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:459)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisitUnchangedChildren(ASTRewriteAnalyzer.java:474)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2944)
+	at org.eclipse.jdt.core.dom.IfStatement.accept0(IfStatement.java:178)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:453)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer$ListRewriter.rewriteList(ASTRewriteAnalyzer.java:797)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer$ListRewriter.rewriteList(ASTRewriteAnalyzer.java:823)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.rewriteParagraphList(ASTRewriteAnalyzer.java:1253)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2263)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:126)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.internalRewriteAST(ASTRewrite.java:307)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.rewriteAST(ASTRewrite.java:296)
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:116)
+	... 8 more
+Caused by: org.eclipse.core.runtime.CoreException: End Of File
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:95)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:152)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:165)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.getTokenEndOffset(TokenScanner.java:190)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:3873)
+	... 33 more
+!SUBENTRY 1 org.eclipse.jdt.ui 4 4 2021-07-20 19:04:11.851
+!MESSAGE Document does not match the AST
+!STACK 0
+java.lang.IllegalArgumentException: Document does not match the AST
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.handleException(ASTRewriteAnalyzer.java:4589)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:3883)
+	at org.eclipse.jdt.core.dom.ThrowStatement.accept0(ThrowStatement.java:131)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisit(ASTRewriteAnalyzer.java:429)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisitList(ASTRewriteAnalyzer.java:467)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:461)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisitUnchangedChildren(ASTRewriteAnalyzer.java:474)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2253)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:126)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:453)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:459)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisitUnchangedChildren(ASTRewriteAnalyzer.java:474)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2944)
+	at org.eclipse.jdt.core.dom.IfStatement.accept0(IfStatement.java:178)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:453)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer$ListRewriter.rewriteList(ASTRewriteAnalyzer.java:797)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer$ListRewriter.rewriteList(ASTRewriteAnalyzer.java:823)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.rewriteParagraphList(ASTRewriteAnalyzer.java:1253)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2263)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:126)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.internalRewriteAST(ASTRewrite.java:307)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.rewriteAST(ASTRewrite.java:296)
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:116)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createTextChange(CUCorrectionProposal.java:196)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createChange(CUCorrectionProposal.java:203)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.getChange(ChangeCorrectionProposal.java:341)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getTextChange(CUCorrectionProposal.java:214)
+	at org.eclipse.jdt.core.manipulation.CUCorrectionProposalCore.getAdditionalProposalInfo(CUCorrectionProposalCore.java:132)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getAdditionalProposalInfo(CUCorrectionProposal.java:138)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: End Of File
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:95)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:152)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:165)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.getTokenEndOffset(TokenScanner.java:190)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:3873)
+	... 33 more
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-07-20 20:08:13.148
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Document does not match the AST
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:119)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createTextChange(CUCorrectionProposal.java:196)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createChange(CUCorrectionProposal.java:203)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.getChange(ChangeCorrectionProposal.java:341)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getTextChange(CUCorrectionProposal.java:214)
+	at org.eclipse.jdt.core.manipulation.CUCorrectionProposalCore.getAdditionalProposalInfo(CUCorrectionProposalCore.java:132)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getAdditionalProposalInfo(CUCorrectionProposal.java:138)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException: Document does not match the AST
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.handleException(ASTRewriteAnalyzer.java:4589)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:3883)
+	at org.eclipse.jdt.core.dom.ThrowStatement.accept0(ThrowStatement.java:131)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisit(ASTRewriteAnalyzer.java:429)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisitList(ASTRewriteAnalyzer.java:467)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:461)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisitUnchangedChildren(ASTRewriteAnalyzer.java:474)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2253)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:126)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:453)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:459)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisitUnchangedChildren(ASTRewriteAnalyzer.java:474)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2944)
+	at org.eclipse.jdt.core.dom.IfStatement.accept0(IfStatement.java:178)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:453)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer$ListRewriter.rewriteList(ASTRewriteAnalyzer.java:797)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer$ListRewriter.rewriteList(ASTRewriteAnalyzer.java:823)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.rewriteParagraphList(ASTRewriteAnalyzer.java:1253)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2263)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:126)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.internalRewriteAST(ASTRewrite.java:307)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.rewriteAST(ASTRewrite.java:296)
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:116)
+	... 8 more
+Caused by: org.eclipse.core.runtime.CoreException: End Of File
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:95)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:152)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:165)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.getTokenEndOffset(TokenScanner.java:190)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:3873)
+	... 33 more
+!SUBENTRY 1 org.eclipse.jdt.ui 4 4 2021-07-20 20:08:13.148
+!MESSAGE Document does not match the AST
+!STACK 0
+java.lang.IllegalArgumentException: Document does not match the AST
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.handleException(ASTRewriteAnalyzer.java:4589)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:3883)
+	at org.eclipse.jdt.core.dom.ThrowStatement.accept0(ThrowStatement.java:131)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisit(ASTRewriteAnalyzer.java:429)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisitList(ASTRewriteAnalyzer.java:467)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:461)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisitUnchangedChildren(ASTRewriteAnalyzer.java:474)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2253)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:126)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:453)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:459)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doVisitUnchangedChildren(ASTRewriteAnalyzer.java:474)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2944)
+	at org.eclipse.jdt.core.dom.IfStatement.accept0(IfStatement.java:178)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.voidVisit(ASTRewriteAnalyzer.java:453)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer$ListRewriter.rewriteList(ASTRewriteAnalyzer.java:797)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer$ListRewriter.rewriteList(ASTRewriteAnalyzer.java:823)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.rewriteParagraphList(ASTRewriteAnalyzer.java:1253)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2263)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:126)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3055)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.internalRewriteAST(ASTRewrite.java:307)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.rewriteAST(ASTRewrite.java:296)
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:116)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createTextChange(CUCorrectionProposal.java:196)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createChange(CUCorrectionProposal.java:203)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.getChange(ChangeCorrectionProposal.java:341)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getTextChange(CUCorrectionProposal.java:214)
+	at org.eclipse.jdt.core.manipulation.CUCorrectionProposalCore.getAdditionalProposalInfo(CUCorrectionProposalCore.java:132)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getAdditionalProposalInfo(CUCorrectionProposal.java:138)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: End Of File
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readNext(TokenScanner.java:95)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:152)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.readToToken(TokenScanner.java:165)
+	at org.eclipse.jdt.internal.core.dom.rewrite.TokenScanner.getTokenEndOffset(TokenScanner.java:190)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:3873)
+	... 33 more

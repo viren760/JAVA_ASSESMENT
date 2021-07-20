@@ -1,0 +1,11 @@
+
+public class BankService {
+	public void getAllBanks() {
+		
+	}
+	
+	public void getBankDetails() {
+		
+	}
+
+}

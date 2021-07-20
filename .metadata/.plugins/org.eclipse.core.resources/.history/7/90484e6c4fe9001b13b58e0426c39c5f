@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class BankService {
+List<Banks> banks=new ArrayList<Banks>();
+banks.forEach(System.out::prinln);
+	public void getAllBanks() {
+		
+	}
+	
+	public void getBankDetails() {
+		
+	}
+
+}

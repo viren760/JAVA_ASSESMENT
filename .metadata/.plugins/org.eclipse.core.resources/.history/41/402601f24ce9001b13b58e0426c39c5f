@@ -1,0 +1,15 @@
+import java.util.List;
+
+public class Bank {
+	private List<Loans> loans;
+
+	public List<Loans> getLoans() {
+		return loans;
+	}
+
+	public void setLoans(List<Loans> loans) {
+		this.loans = loans;
+	}
+	
+
+}

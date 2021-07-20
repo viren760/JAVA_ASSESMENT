@@ -1,0 +1,11 @@
+
+public class BankController {
+
+	public static void main(String[] args)throws NotFoundException {
+		BankService bankservice = new BankService();
+		System.out.println("============================= Showing All Banks =============================");
+		bankservice.getAllBanks();
+//        bankservice.getBankDetails("SBI");
+	}
+    
+}

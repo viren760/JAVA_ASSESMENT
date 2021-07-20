@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class BankService {
+
+	public void getAllBanks(Banks[] banks) {
+		Banks.FetchAllBanks();
+	}
+	
+	public void getBankDetails() {
+		
+	}
+
+}

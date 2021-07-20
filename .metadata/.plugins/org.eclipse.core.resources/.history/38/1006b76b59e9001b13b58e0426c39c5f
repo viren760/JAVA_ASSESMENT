@@ -1,0 +1,34 @@
+import java.util.List;
+
+public class Bank {
+	private String banks;
+	private List<Loans> loans;
+	public String getBanks() {
+		return banks;
+	}
+	public void setBanks(String banks) {
+		this.banks = banks;
+	}
+	public List<Loans> getLoans() {
+		return loans;
+	}
+	public void setLoans(List<Loans> loans) {
+		this.loans = loans;
+	}
+	public Bank(String banks, List<Loans> loans) {
+		super();
+		this.banks = banks;
+		this.loans = loans;
+	}
+	public Bank() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public String toString() {
+		return "Bank [banks=" + banks + ", loans=" + loans + "]";
+	}
+
+		
+
+}

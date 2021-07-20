@@ -1,0 +1,82 @@
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class BankService {
+
+	
+	
+	
+	public void getAllBanks() {
+		Banks.FetchAllBanks();
+	
+	}
+	
+	public  void getBankDetails(String bankName) throws NotFoundException {
+	
+		
+		Class c = Class.forName("Banks");
+		
+		
+		Object o = c.newInstance();
+		
+		Method m = c.getDeclaredMethod("FetchAllBanks", null);
+		
+		m.setAccessible(true);
+		
+		m.invoke(o, null);
+		
+		
+		
+//		Banks.FetchAllBanks();
+		
+
+//		Object banks;
+//		for(int i=0; i<((String) banks).length(); i++) {
+//		char[] jsonString;
+//			System.out.println(jsonString);
+//			try {
+//				
+//				if(bankName == null) {
+//					throw new NotFoundException("Empty value");
+//				}
+//
+//				
+//			}catch(NotFoundException e) {
+//	           
+//				System.out.println("Empty name please fill the bank name ....");
+//				
+//			}
+//			
+//			try {
+//				
+//				if(bankName.equalsIgnoreCase(banks[i])) {
+//			
+//					
+//				}else {
+//					throw new NotFoundException("Wrong Value ");
+//				}
+//				
+//			}catch(NotFoundException e) {
+//				
+//				System.out.println(" Wrong value");
+//				
+//			}
+//		
+			
+			
+			
+		}
+
+	public void getBankDetails(String bankName) {
+		// TODO Auto-generated method stub
+		
+	}
+		
+		
+		
+		}
+				
+}	
+

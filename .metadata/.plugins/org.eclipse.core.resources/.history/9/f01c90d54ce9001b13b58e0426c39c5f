@@ -1,0 +1,10 @@
+
+public class Loans {
+	private String Loans;
+	private int Interest;
+	
+	
+	
+	
+
+}

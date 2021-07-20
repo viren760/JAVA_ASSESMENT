@@ -1,0 +1,12 @@
+
+public class BankController {
+
+	public static void main(String[] args) {
+		Banks banks = new Banks();
+//		banks.FetchAllBanks();
+		BankService bankservice = new BankService();
+//		bankservice.getAllBanks(Banks[]banks);
+       bankservice.getBankDetails("SBI");
+	}
+
+}

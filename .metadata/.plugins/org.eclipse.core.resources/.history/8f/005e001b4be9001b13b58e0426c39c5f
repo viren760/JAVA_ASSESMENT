@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Banks {
+private List<Bank> banks;
+
+
+
+ArrayList<String> al=new ArrayList<String>();
+al.add("State Bank Of India");
+al.add("HDFC BANK");
+al.add("PNB");
+
+
+public static void FetchAllBanks() {
+
+  
+}
+}

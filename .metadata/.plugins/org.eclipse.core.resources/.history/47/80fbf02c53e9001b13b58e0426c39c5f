@@ -1,0 +1,33 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class BankService {
+
+	public void getAllBanks(Banks[] banks) {
+		for(int i=0; i<banks.length;i++)
+		{
+			System.out.println(banks[i]);		
+		}
+	
+	}
+	
+	public void getBankDetails(String banks) {
+		if(banks.equalsIgnoreCase("SBI")) {
+			
+			
+		}
+		else if (banks.equalsIgnoreCase("HDFC"))
+		{
+			
+		}
+		else if(banks.equalsIgnoreCase("PNB"))
+		{
+			
+		}
+	}
+
+	
+	
+
+}

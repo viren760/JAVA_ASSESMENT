@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Banks {
+private List<Bank> banks;
+
+public List<Bank> getBanks() {
+	return banks;
+}
+
+public void setBanks(List<Bank> banks) {
+	this.banks = banks;
+}
+
+public static void FetchAllBanks() {
+	List<Bank> banks = new ArrayList <>();
+	banks.add(new Bank());
+
+  
+}
